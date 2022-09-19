@@ -8,7 +8,7 @@ This template allow you to generate your own CV/rejume as a PDF from Markdown wi
 
 First of all, please make sure Node.js is installed in your PC.
 
-Also you need to edit [Markdown of your CV/rejume](./Curriculum_vitae.md).
+Also you need to edit [Markdown of your CV](./Curriculum_vitae.md).
 
 After that, excute following command:
 
@@ -24,9 +24,9 @@ Now, you can see some of PDF files are generated.
 GitHub Actions allow you to automatically generate PDFs by simply updating markdown, if you're using GitHub.
 
 All you need to do is just create a new repository from the following link:  
-https://github.com/cymagix/project-template/cv-rejume-generator-from-markdown
+https://github.com/cymagix/cv-rejume-generator-from-markdown/generate
 
-Then, edit [Markdown of your CV/rejume](./Curriculum_vitae.md), and wait GitHub Actions generate your PDF.
+Then, edit [Markdown of your CV](./Curriculum_vitae.md) on your repository, and wait GitHub Actions generate your PDF.
 
 If all is well, a new PDF should be generated.
 
