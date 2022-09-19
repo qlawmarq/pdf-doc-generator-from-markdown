@@ -15,7 +15,9 @@
     "url": "git+https://github.com/cymagix/cv-rejume-generator-from-markdown.git"
   },
   "keywords": [
+    "cv",
     "rejume",
+    "markdown",
     "pdf"
   ],
   "license": "MIT",

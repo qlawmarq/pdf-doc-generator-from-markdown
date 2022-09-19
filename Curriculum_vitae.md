@@ -18,7 +18,7 @@ Skilled in React.js, TypeScript, JavaScript, HTML, CSS, etc.
 
 2012 – 2017  
 UC San Diego, California  
-Bachelor of CS
+Bachelor of Computer Science
 
 ## Extracurricular Activities
 

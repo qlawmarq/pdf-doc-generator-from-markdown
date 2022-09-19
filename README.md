@@ -1,23 +1,14 @@
 # cv-rejume-generator-from-markdown
 
-This template allow you to generate your own CV/rejume as a PDF from Markdown with GitHub Actions automatically easily.
+[![Github Actions Badge](https://github.com/cymagix/cv-rejume-generator-from-markdown/workflows/Node/badge.svg)](https://github.com/cymagix/cv-rejume-generator-from-markdown/actions)
+
+This template allow you to generate your own as a PDF from Markdown with GitHub Actions automatically easily.
+
+Once you update [Markdown of your CV](./Curriculum_vitae.md), GitHub Actions automatically generate [PDF of your CV](./Curriculum_vitae.pdf).
+
+In addition to CVs, this template can also used for resumes and other format.
 
 ## Usage
-
-### Local machine
-
-First of all, please make sure Node.js is installed in your PC.
-
-Also you need to edit [Markdown of your CV](./Curriculum_vitae.md).
-
-After that, excute following command:
-
-```bash
-npm i
-npm run generate
-```
-
-Now, you can see some of PDF files are generated.
 
 ### With GitHub Actions
 
@@ -32,7 +23,22 @@ If all is well, a new PDF should be generated.
 
 Also, please check [GitHub Actions docs](https://docs.github.com/en/actions) to see how it works.
 
-### Update PDF design/style/layout
+### Local machine
+
+You can also run this generator on you local machine.
+
+First of all, please make sure Node.js is installed in your PC.
+
+After that, excute following command:
+
+```bash
+npm i
+npm run generate
+```
+
+Now, you can see some of PDF files are generated.
+
+## Update PDF design/style/layout
 
 Markdown files are converted once to html and then to pdf. And that means you can apply CSS styles to your PDFs.
 
@@ -45,4 +51,4 @@ Please refer to [md-to-pdf](https://www.npmjs.com/package/md-to-pdf) for other o
 ## Elements
 
 - [md-to-pdf](https://www.npmjs.com/package/md-to-pdf)
-- [GitHub actions](https://github.com/cymagix/cv-rejume-generator-from-markdown/blob/master/.github/workflows/node.yml)
+- [GitHub Actions](https://docs.github.com/en/actions)
