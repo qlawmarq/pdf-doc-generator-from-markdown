@@ -1,0 +1,29 @@
+{
+  "name": "cv-rejume-generator-from-markdown",
+  "version": "1.0.0",
+  "description": "Once write CV with markdown, Generate pdf of CV automatically with GitHub actions.",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "generate": "md-to-pdf ./*.md --config-file ./config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cymagix/cv-rejume-generator-from-markdown.git"
+  },
+  "keywords": [
+    "rejume",
+    "pdf"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cymagix/cv-rejume-generator-from-markdown/issues"
+  },
+  "homepage": "https://github.com/cymagix/cv-rejume-generator-from-markdown/#readme",
+  "dependencies": {
+    "md-to-pdf": "^5.1.0"
+  }
+}

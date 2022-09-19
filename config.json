@@ -1,0 +1,11 @@
+{
+    "stylesheet": "./md.css",
+    "body_class": "markdown-body",
+    "css": ".page-break { page-break-after: always; }",
+    "pdf_options": {
+        "format": "a4",
+        "margin": "10mm 15mm",
+        "displayHeaderFooter": false,
+        "footerTemplate": "<section></section>"
+    }
+}
