@@ -2,11 +2,13 @@
 
 [![Github Actions Badge](https://github.com/cymagix/cv-rejume-generator-from-markdown/workflows/Node/badge.svg)](https://github.com/cymagix/cv-rejume-generator-from-markdown/actions)
 
-This template allow you to generate your own as a PDF from Markdown with GitHub Actions automatically easily.
+This template allow you to generate your own CV or rejume as a PDF from Markdown with GitHub Actions automatically easily.
 
 Once you update [Markdown of your CV](./Curriculum_vitae.md), GitHub Actions automatically generate [PDF of your CV](./Curriculum_vitae.pdf).
 
-In addition to CVs, this template can also used for resumes and other format.
+Check the files and see how it works!
+- [Markdown of CV template (original file)](./Curriculum_vitae.md)
+- [PDF of CV template (generated file)](./Curriculum_vitae.pdf)
 
 ## Usage
 
