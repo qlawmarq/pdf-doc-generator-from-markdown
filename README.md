@@ -1,10 +1,10 @@
-# cv-rejume-generator-from-markdown
+# pdf-doc-generator-from-markdown
 
-[![Github Actions Badge](https://github.com/cymagix/cv-rejume-generator-from-markdown/workflows/Node/badge.svg)](https://github.com/cymagix/cv-rejume-generator-from-markdown/actions)
+[![Github Actions Badge](https://github.com/cymagix/pdf-doc-generator-from-markdown/workflows/Node/badge.svg)](https://github.com/cymagix/pdf-doc-generator-from-markdown/actions)
 
-This template allow you to generate your own CV or rejume as a PDF from Markdown with GitHub Actions automatically easily.
+This template makes it easy to generate documents such as resumes and privacy policies as PDFs from Markdown using GitHub Actions.
 
-Once you update [Markdown of your CV](./Curriculum_vitae.md), GitHub Actions automatically generate [PDF of your CV](./Curriculum_vitae.pdf).
+Once you update Markdown file, GitHub Actions automatically generate the PDF version of the file.
 
 Check the files and see how it works!
 - [Markdown of CV template (original file)](./Curriculum_vitae.md)
@@ -17,9 +17,9 @@ Check the files and see how it works!
 GitHub Actions allow you to automatically generate PDFs by simply updating markdown, if you're using GitHub.
 
 All you need to do is just create a new repository from the following link:  
-https://github.com/cymagix/cv-rejume-generator-from-markdown/generate
+https://github.com/cymagix/pdf-doc-generator-from-markdown/generate
 
-Then, edit [Markdown of your CV](./Curriculum_vitae.md) on your repository, and wait GitHub Actions generate your PDF.
+Then, edit [Markdown](./Curriculum_vitae.md) on this repository, and wait GitHub Actions generate your PDF.
 
 If all is well, a new PDF should be generated.
 
